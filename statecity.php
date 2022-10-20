@@ -35,8 +35,8 @@ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbs
                                 <option value="">Select State</option>
                                 <?php
                                 foreach($States as $State)
-                               {  echo '<option value="'.$State['id'].'">'.$State['name'].'</option>';  
-                                
+                               {   
+                                console.log('hello');
                                     ?>
                                 <option   value=" <?php $State['id']?>"> <?php echo $State['name']?></option>
                                 <?php  
